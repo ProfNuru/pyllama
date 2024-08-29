@@ -10,8 +10,8 @@ MODEL='llama3.1'
 EMBEDDING_MODEL='nomic-embed-text'
 DB_PARAMS = {
     'dbname':'memory_agent',
-    'user':'turnables',
-    'password':'turnables$1',
+    'user':'[DB-USER]',
+    'password':'[YOUR_PASSWORD]',
     'host':'localhost',
     'port':'5432',
 }
